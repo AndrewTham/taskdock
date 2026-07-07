@@ -57,6 +57,16 @@ button:hover { filter: brightness(1.05); }
 
 .empty { color: var(--muted); text-align: center; padding: 24px 0; }
 
+.error-banner {
+  margin: 0 0 16px;
+  padding: 10px 14px;
+  border: 1px solid var(--danger);
+  border-radius: 8px;
+  background: #fdecec;
+  color: var(--danger);
+  font-size: 0.9rem;
+}
+
 ul { list-style: none; padding: 0; margin: 0; }
 
 li {
